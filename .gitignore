@@ -8,9 +8,15 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.next
+coverage
 dist
 dist-ssr
 *.local
+.coverage
+__pycache__/
+*.py[cod]
+.pytest_cache/
 
 # Editor directories and files
 .vscode/*

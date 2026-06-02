@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "backend:test": "cd backend && pytest",
+    "backend:test": "cd backend && python3 -m pytest --cov=app",
     "compose:up": "docker compose up --build"
   },
   "dependencies": {
